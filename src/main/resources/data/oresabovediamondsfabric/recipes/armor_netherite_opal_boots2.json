@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_boots"
+  },
+  "addition": {
+    "item": "oresabovediamondsfabric:netherite_opal_boots"
+  },
+  "result": {
+    "item": "oresabovediamondsfabric:netherite_opal_boots"
+  }
+}

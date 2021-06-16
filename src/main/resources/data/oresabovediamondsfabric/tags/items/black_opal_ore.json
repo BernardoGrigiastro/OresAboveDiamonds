@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values":
+	[
+		"oresabovediamondsfabric:black_opal_ore",
+		"oresabovediamondsfabric:nether_black_opal_ore",
+		"oresabovediamondsfabric:end_black_opal_ore"
+	]
+}

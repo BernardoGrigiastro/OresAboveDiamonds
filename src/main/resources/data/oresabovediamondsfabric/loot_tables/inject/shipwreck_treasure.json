@@ -1,0 +1,27 @@
+{
+  "pools": [{
+    "name": "main",
+    "rolls": {
+        "min": 3.0,
+        "max": 6.0,
+        "type": "minecraft:uniform"
+      },
+    "entries": [
+      {
+        "type": "item",
+        "name": "oresabovediamondsfabric:black_opal",
+        "weight": 2
+      },
+      {
+      
+        "type": "item",
+        "name": "oresabovediamondsfabric:amethyst",
+        "weight": 3
+      },
+      {
+        "type": "empty",
+        "weight": 72
+      }
+    ]
+  }]
+}

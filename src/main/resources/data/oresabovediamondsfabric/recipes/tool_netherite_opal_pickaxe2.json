@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_pickaxe"
+  },
+  "addition": {
+    "item": "oresabovediamondsfabric:netherite_opal_pickaxe"
+  },
+  "result": {
+    "item": "oresabovediamondsfabric:netherite_opal_pickaxe"
+  }
+}

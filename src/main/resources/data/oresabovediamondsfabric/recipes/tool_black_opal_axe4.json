@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "addition": {
+    "item": "oresabovediamondsfabric:black_opal_axe"
+  },
+  "result": {
+    "item": "oresabovediamondsfabric:black_opal_axe"
+  }
+}

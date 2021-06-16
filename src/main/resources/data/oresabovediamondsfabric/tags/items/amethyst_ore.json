@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values":
+	[
+		"oresabovediamondsfabric:amethyst_ore",
+		"oresabovediamondsfabric:nether_amethyst_ore",
+		"oresabovediamondsfabric:end_amethyst_ore"
+	]
+}

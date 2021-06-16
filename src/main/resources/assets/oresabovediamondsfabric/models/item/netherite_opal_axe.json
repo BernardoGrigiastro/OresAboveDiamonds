@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "oresabovediamondsfabric:item/netherite_opal_axe"
+    }
+}

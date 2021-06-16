@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "addition": {
+    "item": "oresabovediamondsfabric:netherite_opal_helmet"
+  },
+  "result": {
+    "item": "oresabovediamondsfabric:netherite_opal_helmet"
+  }
+}

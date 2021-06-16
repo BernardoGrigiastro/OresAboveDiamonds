@@ -1,0 +1,26 @@
+{
+    "display":  {
+        "icon": {
+            "item": "oresabovediamondsfabric:black_opal"
+        },
+        "title": {
+            "translate": "advancements.find_black_opal"
+        },
+        "description": {
+            "translate": "advancements.find_black_opal_text"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "oresabovediamondsfabric:main/find_amethyst",
+    "criteria" : {
+    	"found_black_opal" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "oresabovediamondsfabric:black_opal"}
+      			]
+      		}
+    	}
+    }
+}

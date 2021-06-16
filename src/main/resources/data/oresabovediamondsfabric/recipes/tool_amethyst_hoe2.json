@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"II",
+		" S",
+		" S"
+	],
+	
+	
+	"key":
+	{
+		"I": {"item": "oresabovediamondsfabric:amethyst"},
+		"S": {"item": "minecraft:stick"}
+	},
+	
+	"result": {"item": "oresabovediamondsfabric:amethyst_hoe"}
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_pickaxe"
+  },
+  "addition": {
+    "item": "oresabovediamondsfabric:amethyst_pickaxe"
+  },
+  "result": {
+    "item": "oresabovediamondsfabric:amethyst_pickaxe"
+  }
+}

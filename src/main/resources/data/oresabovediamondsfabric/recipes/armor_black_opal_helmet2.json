@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "oresabovediamondsfabric:amethyst_helmet"
+  },
+  "addition": {
+    "item": "oresabovediamondsfabric:black_opal_helmet"
+  },
+  "result": {
+    "item": "oresabovediamondsfabric:black_opal_helmet"
+  }
+}

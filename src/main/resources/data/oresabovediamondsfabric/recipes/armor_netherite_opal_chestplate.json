@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "oresabovediamondsfabric:black_opal_chestplate"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "oresabovediamondsfabric:netherite_opal_chestplate"
+  }
+}

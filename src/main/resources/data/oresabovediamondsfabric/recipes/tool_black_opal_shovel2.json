@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "oresabovediamondsfabric:amethyst_shovel"
+  },
+  "addition": {
+    "item": "oresabovediamondsfabric:black_opal_shovel"
+  },
+  "result": {
+    "item": "oresabovediamondsfabric:black_opal_shovel"
+  }
+}

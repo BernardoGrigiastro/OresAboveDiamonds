@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "oresabovediamondsfabric:item/netherite_opal_helmet"
+    }
+}

@@ -2,7 +2,7 @@
 	"replace": false,
 	"values":
 	[
-		"oresabovediamonds:amethyst",
-		"oresabovediamonds:black_opal"
+		"oresabovediamondsfabric:amethyst",
+		"oresabovediamondsfabric:black_opal"
 	]
 }

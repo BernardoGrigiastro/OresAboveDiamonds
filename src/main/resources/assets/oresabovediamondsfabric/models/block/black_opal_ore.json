@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "oresabovediamondsfabric:block/black_opal_ore"
+    }
+}

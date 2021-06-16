@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "addition": {
+    "item": "oresabovediamondsfabric:netherite_opal_shovel"
+  },
+  "result": {
+    "item": "oresabovediamondsfabric:netherite_opal_shovel"
+  }
+}

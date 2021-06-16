@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_hoe"
+  },
+  "addition": {
+    "item": "oresabovediamondsfabric:netherite_opal_hoe"
+  },
+  "result": {
+    "item": "oresabovediamondsfabric:netherite_opal_hoe"
+  }
+}
