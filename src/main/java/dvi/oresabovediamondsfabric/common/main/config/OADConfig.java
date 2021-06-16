@@ -9,6 +9,7 @@ import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.Comment;
 public class OADConfig implements ConfigData{
 
     public Ores ORES = new Ores();
+    public Gear GEAR = new Gear();
 
     @Config(name="Ores")
     public static class Ores implements ConfigData
@@ -48,65 +49,100 @@ public class OADConfig implements ConfigData{
         public Boolean spawn_amethyst_end = false;
         @Comment("Spawn black opals in the end? Default = false")
         public Boolean spawn_black_opal_end = false;
+
+        @Comment("If nether_ores is enabled, the spawn chance per chunk in the nether will be the chances set for amethyst_chance and black_opal_chance times this multiplier. The final rarity of each ore vein cannot be more common than diamonds. The default value tries to imitate the rarity in the overworld. Default = 1.35.")
+        public double nether_chance_multiplier = 1.35;
+        @Comment("If end_ores is enabled, the spawn chance per chunk in the end will be the chances set for amethyst_chance and black_opal_chance times this multiplier. The default value tries to imitate the rarity in the overworld. Default = 1.0")
+        public double end_chance_multiplier = 1.0;
+        @Comment("If nether_ores is enabled, multiplies the max vein size of nether ores. Rounds to the nearest integer. Final max vein size cannot exceed 64 for stability reasons. Default = 1.0")
+        public double nether_vein_multiplier = 1.0;
+        public double end_vein_multiplier = 1.0;
     }
 
-    public int amethyst_armor_toughness;
-    public int black_opal_armor_toughness;
-    public int netherite_opal_armor_toughness;
+    @Config(name="Gear")
+    public static class Gear implements ConfigData{
+        @Comment("Toughness for the Amethyst Armor Set. Toughness reduces the armor penetration of high damaging attacks. Default = 3")
+        public int amethyst_armor_toughness = 3;
+        @Comment("Toughness for the Black Opal Armor Set. Default = 4")
+        public int black_opal_armor_toughness = 4;
+        @Comment("Toughness for the Netherite Opal Armor Set. Default = 5")
+        public int netherite_opal_armor_toughness = 5;
 
-    public int amethyst_armor_knockback_resistance;
-    public int black_opal_armor_knockback_resistance;
-    public int netherite_opal_armor_knockback_resistance;
+        @Comment("Knockback resistance for the Amethyst Armor Set. Knockback resistance reduces the amount of knockback the player takes. Default = 0")
+        public int amethyst_armor_knockback_resistance = 0;
+        @Comment("Knockback resistance for the Black Opal Armor Set. Default = 0")
+        public int black_opal_armor_knockback_resistance = 0;
+        @Comment("Knockback resistance for the Netherite Opal Armor Set. Default = 1")
+        public int netherite_opal_armor_knockback_resistance = 1;
 
-    public int amethyst_armor_durability;
-    public int black_opal_armor_durability;
-    public int netherite_opal_armor_durability;
+        @Comment("Base Durability for the Amethyst Armor Set. For reference, Diamond Armor has 33 base durability. Set to 0 for infinite durability. Default = 132")
+        public int amethyst_armor_durability = 132;
+        @Comment("Base Durability for the Black Opal Armor Set. Set 0 for infinite durability. Default = 0")
+        public int black_opal_armor_durability = 0;
+        @Comment("Base Durability for the Black Opal Armor Set. Set 0 for infinite durability. Default = 0")
+        public int netherite_opal_armor_durability = 0;
 
-    public int amethyst_helmet_armor;
-    public int amethyst_chestplate_armor;
-    public int amethyst_leggings_armor;
-    public int amethyst_boots_armor;
+        @Comment("Amethyst Helmet Armor Value. Indicates how many half-armor points the indicated armor will give. Default = 3")
+        public int amethyst_helmet_armor = 3;
+        @Comment("Amethyst Chestplate Armor Value. Default = 8")
+        public int amethyst_chestplate_armor = 8;
+        @Comment("Amethyst Leggings Armor Value. Default = 7")
+        public int amethyst_leggings_armor = 7;
+        @Comment("Amethyst Boots Armor Value. Default = 3")
+        public int amethyst_boots_armor = 3;
 
-    public int black_opal_helmet_armor;
-    public int black_opal_chestplate_armor;
-    public int black_opal_leggings_armor;
-    public int black_opal_boots_armor;
+        @Comment("Black Opal Helmet Armor Value. Default = 3")
+        public int black_opal_helmet_armor = 3;
+        @Comment("Black Opal Chestplate Armor Value. Default = 9")
+        public int black_opal_chestplate_armor = 9;
+        @Comment("Black Opal Leggings Armor Value. Default = 7")
+        public int black_opal_leggings_armor = 7;
+        @Comment("Black Opal Boots Armor Value. Default = 3")
+        public int black_opal_boots_armor = 3;
 
-    public int netherite_opal_helmet_armor;
-    public int netherite_opal_chestplate_armor;
-    public int netherite_opal_leggings_armor;
-    public int netherite_opal_boots_armor;
+        @Comment("Netherite Opal Helmet Armor Value. Default = 3")
+        public int netherite_opal_helmet_armor = 3;
+        @Comment("Netherite Opal Chestplate Armor Value. Default = 9")
+        public int netherite_opal_chestplate_armor = 9;
+        @Comment("Netherite Opal Leggings Armor Value. Default = 7")
+        public int netherite_opal_leggings_armor = 7;
+        @Comment("Netherite Opal Boots Armor Value. Default = 3")
+        public int netherite_opal_boots_armor = 3;
 
-    public int amethyst_attack_damage;
-    public int amethyst_efficiency;
-    public int amethyst_durability;
+        @Comment("Base Attack Damage of the Amethyst Tool Set. For reference, the Diamond Tool Set has 3 base attack damage. Default = 4")
+        public int amethyst_attack_damage = 4;
+        @Comment("Efficiency of the Amethyst Tool Set. For reference, the Diamond Tool Set has 8 efficiency. Default = 12")
+        public int amethyst_efficiency = 12;
+        @Comment("Durability of the Amethyst Tool Set. For reference, the Diamond Tool Set has 1561 durability. Set to 0 for infinite durability. Default = 4500")
+        public int amethyst_durability = 4500;
 
-    public int black_opal_attack_damage;
-    public int black_opal_efficiency;
-    public int black_opal_durability;
+        @Comment("Base Attack Damage of the Black Opal Tool Set. Default = 5")
+        public int black_opal_attack_damage = 5;
+        @Comment("Efficiency of the Black Opal Tool Set. Default = 16")
+        public int black_opal_efficiency = 16;
+        @Comment("Durability of the Black Opal Tool Set. Set to 0 for infinite durability. Default = 0")
+        public int black_opal_durability = 0;
 
-    public int netherite_opal_attack_damage;
-    public int netherite_opal_efficiency;
-    public int netherite_opal_durability;
+        @Comment("Base Attack Damage of the Netherite Opal Tool Set. Default = 5")
+        public int netherite_opal_attack_damage = 5;
+        @Comment("Efficiency of the Netherite Opal Tool Set. Default = 16")
+        public int netherite_opal_efficiency = 16;
+        @Comment("Durability of the Netherite Opal Tool Set. Set to 0 for infinite durability. Default = 0")
+        public int netherite_opal_durability = 0;
 
-    public int amethyst_enchantability;
-    public int black_opal_enchantability;
-    public int netherite_opal_enchantability;
+        @Comment("Amethyst Enchantability. A higher value makes it easier to obtain higher level enchantments for less experience. For reference, diamonds have an enchantability of 10 and gold has an enchantability of 25. Default = 35")
+        public int amethyst_enchantability = 35;
+        @Comment("Black Opal Enchantability. Default = 15")
+        public int black_opal_enchantability = 15;
+        @Comment("Netherite Opal Enchantability. Default = 20")
+        public int netherite_opal_enchantability = 20;
+    }
 
-    public int nether_chance_multiplier;
-    public int end_chance_multiplier;
-    public int nether_vein_multiplier;
-    public int end_vein_multiplier;
+    @Comment("(Clients only) Sync your config to the server upon joining? (Will still require a Minecraft restart after joining)")
+    public Boolean enable_server_config_sync = true;
+    @Comment("(Servers only) Sends a packet that attempts to sync the client config file to the server?")
+    public Boolean send_config_sync_packet = true;
 
-    public int enable_server_config_sync;
-    public int send_config_sync_packet;
-
-
-
-    //public  int overworld_ores;
-    //public  int nether_ores;
-    //public  int end_ores;
-    public int old_combat_mechanics;
-    public int ores_above_netherite;
-    public int chest_loot;
+    @Comment("Wherever diamonds can naturally generate in chests, black opal and amethyst can too at a reduced rate! Default = true")
+    public Boolean chest_loot = true;
 }

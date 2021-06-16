@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values":
+  [
+    "oresabovediamondsfabric:amethyst_ore",
+    "oresabovediamondsfabric:nether_amethyst_ore",
+    "oresabovediamondsfabric:end_amethyst_ore",
+    "oresabovediamondsfabric:black_opal_ore",
+    "oresabovediamondsfabric:nether_black_opal_ore",
+    "oresabovediamondsfabric:end_black_opal_ore",
+    "oresabovediamondsfabric:amethyst_block",
+    "oresabovediamondsfabric:black_opal_block"
+  ]
+}
