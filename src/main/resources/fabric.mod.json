@@ -6,8 +6,7 @@
   "name": "Ores Above Diamonds",
   "description": "Adds the §dAmethyst§r and §5Black Opal§r which are respectively §d3x§r and §59x§r rarer than diamonds. \nBoth have its own set of balanced armors and tools.\nThe mod doesn't have built in retrogen support. This means that ores will not spawn in already loaded chunks. Venture far into unexplored lands to have a chance at finding them.",
   "authors": [
-    "Dvi",
-    "Squidsword"
+    "Dvi"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
