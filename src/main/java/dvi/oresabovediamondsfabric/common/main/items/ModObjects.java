@@ -64,13 +64,13 @@ public class ModObjects {
 
     //BLOCKS
 
-    public static final Block AMETHYST_ORE = addObject("amethyst_ore", new Block(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(20f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 3)));
-    public static final Block NETHER_AMETHYST_ORE = addObject("nether_amethyst_ore", new Block(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(20f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 3)));
-    public static final Block END_AMETHYST_ORE = addObject("end_amethyst_ore", new Block(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(20f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 3)));
+    public static final Block AMETHYST_ORE = addObject("amethyst_ore", new ModOres(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(20f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 3)));
+    public static final Block NETHER_AMETHYST_ORE = addObject("nether_amethyst_ore", new ModOres(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(20f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 3)));
+    public static final Block END_AMETHYST_ORE = addObject("end_amethyst_ore", new ModOres(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(20f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 3)));
 
-    public static final Block BLACK_OPAL_ORE = addObject("black_opal_ore", new Block(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(50f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 4)));
-    public static final Block NETHER_BLACK_OPAL_ORE = addObject("nether_black_opal_ore", new Block(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(50f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 4)));
-    public static final Block END_BLACK_OPAL_ORE = addObject("end_black_opal_ore", new Block(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(50f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 4)));
+    public static final Block BLACK_OPAL_ORE = addObject("black_opal_ore", new ModOres(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(50f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 4)));
+    public static final Block NETHER_BLACK_OPAL_ORE = addObject("nether_black_opal_ore", new ModOres(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(50f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 4)));
+    public static final Block END_BLACK_OPAL_ORE = addObject("end_black_opal_ore", new ModOres(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(50f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 4)));
 
     public static final Block AMETHYST_BLOCK = addObject("amethyst_block", new Block(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(50f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 3)));
     public static final Block BLACK_OPAL_BLOCK = addObject("black_opal_block", new Block(FabricBlockSettings.of(Material.METAL).hardness(10f).resistance(100f).sounds(BlockSoundGroup.METAL).breakByTool(FabricToolTags.PICKAXES, 4)));
